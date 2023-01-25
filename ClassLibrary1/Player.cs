@@ -8,7 +8,7 @@ namespace ClassLibrary1
 {
     public class Player : Elementos
     {
-        public Item Item { get; set; }
+        public List<Item> Items{ get; set; }
         
     }
 }
