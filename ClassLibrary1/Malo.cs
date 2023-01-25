@@ -9,6 +9,6 @@ namespace ClassLibrary1
     public class Malo : Elementos
     {
         public string Tipo;
-        public Proyectiles Proyectiles { get; set; }
+        public List<Proyectiles>Proyectiles { get; set; }
     }
 }
